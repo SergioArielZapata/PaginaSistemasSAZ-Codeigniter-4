@@ -1,0 +1,464 @@
+CRITICAL - 2022-05-29 10:13:43 --> Invalid file: productos/listado_producto.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/lista...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/lista...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(16): view('productos/lista...', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->index()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-29 10:17:31 --> Column 'nombre' cannot be null
+CRITICAL - 2022-05-29 10:36:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\editnames.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/editnam...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CrudController.php(40): view('usuario/editnam...', Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CrudController->singleUser('10')
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 10:42:41 --> Invalid file: /addproducto.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/addproducto.ph...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/addproducto', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(21): view('/addproducto')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->create()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 10:51:06 --> Invalid file: /addproducto.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/addproducto.ph...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/addproducto', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(21): view('/addproducto')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->create()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 10:52:41 --> Invalid file: /addproducto.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/addproducto.ph...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/addproducto', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(21): view('/addproducto')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->create()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 10:55:11 --> Invalid file: /addproducto.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/addproducto.ph...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/addproducto', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(21): view('/addproducto')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->create()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 11:06:31 --> Invalid file: /addproducto.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/addproducto.ph...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/addproducto', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(21): view('/addproducto')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->create()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 11:27:00 --> Invalid file: /addproducto.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/addproducto.ph...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/addproducto', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(21): view('/addproducto')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->create()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 11:28:38 --> Invalid file: /addproducto.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/addproducto.ph...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/addproducto', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(21): view('/addproducto')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->create()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 11:33:02 --> Invalid file: /addproducto.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/addproducto.ph...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/addproducto', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(21): view('/addproducto')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->create()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 11:59:00 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->store()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 12:01:12 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->store()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-29 12:04:44 --> Column 'cod' cannot be null
+ERROR - 2022-05-29 12:05:00 --> Column 'cod' cannot be null
+ERROR - 2022-05-29 12:06:53 --> Column 'cod' cannot be null
+ERROR - 2022-05-29 12:10:32 --> Column 'cod' cannot be null
+ERROR - 2022-05-29 12:10:48 --> Column 'cod' cannot be null
+CRITICAL - 2022-05-29 12:18:36 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\menu.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/menu', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Dashboard.php(12): view('usuario/menu')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 12:19:57 --> Call to undefined method CodeIgniter\View\View::session()
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/menu', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Dashboard.php(12): view('usuario/menu')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 12:23:13 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\menu.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/menu', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Dashboard.php(12): view('usuario/menu')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 12:23:41 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\menu.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/menu', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Dashboard.php(12): view('usuario/menu')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 12:24:18 --> Undefined variable: perfil
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\menu.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/menu', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Dashboard.php(12): view('usuario/menu')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 12:25:16 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\menu.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/menu', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Dashboard.php(12): view('usuario/menu')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 12:26:24 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\menu.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/menu', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Dashboard.php(12): view('usuario/menu')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 12:28:01 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/menu', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Dashboard.php(12): view('usuario/menu')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 12:29:26 --> Invalid file: /profile.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/profile.php')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/profile', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(103): view('/profile')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->profile()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:14:08 --> Call to a member function get() on bool
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/menu', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Dashboard.php(21): view('usuario/menu')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 14:15:28 --> Call to a member function get() on bool
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/menu', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Dashboard.php(21): view('usuario/menu')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 14:16:00 --> Undefined variable: session
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\menu.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/menu', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Dashboard.php(21): view('usuario/menu')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 14:59:08 --> Undefined variable: uri
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\front\menu.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(90): view('front/menu')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 14:59:10 --> Undefined variable: uri
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\front\menu.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(90): view('front/menu')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 14:59:32 --> Undefined variable: uri
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\front\menu.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(90): view('front/menu')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 16:18:06 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\listado_producto.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/lista...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(16): view('productos/lista...', Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->index()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 16:26:15 --> Invalid file: usuario/mostrar_productos.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuario/mostrar...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/mostrar...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(24): view('usuario/mostrar...')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:27:48 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\mostrar_productos.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/mostr...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(23): view('productos/mostr...', Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 16:36:39 --> Undefined variable: productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\mostrar_productos.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/mostr...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(25): view('productos/mostr...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 16:36:53 --> Undefined variable: productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\mostrar_productos.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/mostr...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(25): view('productos/mostr...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 16:37:39 --> Undefined variable: productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\mostrar_productos.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/mostr...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(26): view('productos/mostr...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 18:55:36 --> Invalid file: header.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CrudController.php(16): view('header')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CrudController->index()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 19:16:52 --> Invalid file: /namelist.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/namelist.php')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/namelist', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CrudController.php(17): view('/namelist', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CrudController->index()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 19:18:58 --> Invalid file: front/usuario/namelist.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/usuario/n...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('front/usuario/n...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CrudController.php(17): view('front/usuario/n...', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CrudController->index()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 19:19:24 --> Invalid file: namelist.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('namelist.php')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('namelist', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CrudController.php(17): view('namelist', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CrudController->index()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 19:58:30 --> Invalid file: usuario/mostrar_producto.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuario/mostrar...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/mostrar...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(109): view('usuario/mostrar...')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->mostrar_productos()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 19:58:47 --> Invalid file: usuario/mostrar_productos.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuario/mostrar...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/mostrar...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(109): view('usuario/mostrar...')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->mostrar_productos()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 19:59:33 --> Undefined variable: productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\mostrar_productos.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/mostr...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(109): view('productos/mostr...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->mostrar_productos()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 20:00:37 --> Undefined variable: productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\mostrar_productos.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/mostr...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(109): view('productos/mostr...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->mostrar_productos()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 20:01:50 --> Undefined variable: productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\mostrar_productos.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/mostr...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(109): view('productos/mostr...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->mostrar_productos()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 20:01:53 --> Undefined variable: productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\mostrar_productos.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/mostr...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(109): view('productos/mostr...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->mostrar_productos()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 20:42:31 --> Undefined variable: id
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\mostrar_productos.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/mostr...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(37): view('productos/mostr...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 20:42:47 --> Undefined variable: id
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\mostrar_productos.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/mostr...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(37): view('productos/mostr...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 20:43:09 --> Undefined index: id
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\mostrar_productos.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/mostr...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(37): view('productos/mostr...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

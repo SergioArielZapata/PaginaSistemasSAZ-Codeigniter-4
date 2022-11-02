@@ -1,0 +1,106 @@
+ERROR - 2022-06-09 07:06:34 --> The cart array must contain a product ID, quantity, price, and name.
+CRITICAL - 2022-06-09 08:29:20 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(54): redirect('http://localhos...')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->add()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-09 08:33:57 --> Undefined property: App\Controllers\CarritoController::$cart
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->add()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 08:35:42 --> Undefined property: App\Controllers\CarritoController::$cart
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->add()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 18:52:48 --> Call to protected method CodeIgniterCart\Cart::saveCart() from context 'App\Controllers\CarritoController'
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->add()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 19:09:59 --> Undefined property: App\Controllers\CarritoController::$input
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->agregar()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 19:10:42 --> Undefined property: App\Controllers\CarritoController::$input
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->agregar()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 19:10:50 --> Undefined property: App\Controllers\CarritoController::$input
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->agregar()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 19:10:57 --> Undefined property: App\Controllers\CarritoController::$input
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->agregar()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 19:12:24 --> Undefined property: App\Controllers\CarritoController::$cart
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->agregar()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 19:13:05 --> Undefined property: App\Controllers\CarritoController::$cart
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->agregar()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 19:14:18 --> Undefined property: App\Controllers\CarritoController::$cart
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->agregar()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 19:15:07 --> Object of class CodeIgniterCart\Cart could not be converted to string
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->agregar()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 19:15:31 --> Undefined property: App\Controllers\CarritoController::$cart
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->agregar()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 19:16:00 --> Undefined property: App\Controllers\CarritoController::$cart
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->agregar()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 19:18:17 --> Undefined property: App\Controllers\CarritoController::$requestS
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->add()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

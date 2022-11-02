@@ -1,0 +1,119 @@
+CRITICAL - 2022-06-10 07:39:48 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\editproducto.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/editp...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(72): view('productos/editp...', Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->singleProducto('5')
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 07:40:36 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\editproducto.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/editp...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(72): view('productos/editp...', Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->singleProducto('5')
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 07:41:42 --> Undefined variable: productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\editproducto.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/editp...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(72): view('productos/editp...', Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->singleProducto('5')
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-10 07:47:19 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 07:48:22 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 07:52:43 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 07:56:09 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 07:56:42 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 07:58:38 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 08:00:05 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 08:00:36 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 08:01:23 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 08:02:07 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 08:03:47 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 08:05:04 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 08:09:06 --> Unknown column 'estado' in 'field list'
+ERROR - 2022-06-10 08:35:33 --> Error connecting to the database: Unknown database 'ramirezalfredo-p1'
+CRITICAL - 2022-06-10 08:35:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ramirezalfredo-p1'
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-10 08:38:01 --> Table 'ramirezalfredo-p1.productos' doesn't exist
+CRITICAL - 2022-06-10 08:38:01 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(16): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-10 08:44:06 --> Column 'estado' cannot be null
+CRITICAL - 2022-06-10 08:46:35 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(50): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/', '1654868795_1b4c...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->store()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-10 08:48:07 --> Column 'estado' cannot be null
+CRITICAL - 2022-06-10 08:48:15 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(50): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/', '1654868895_8159...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->store()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-10 08:48:31 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 08:51:20 --> Column 'estado' cannot be null
+CRITICAL - 2022-06-10 08:56:53 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->store()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-10 08:57:23 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 09:00:29 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 09:01:43 --> Column 'estado' cannot be null
+CRITICAL - 2022-06-10 09:03:11 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->store()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-10 09:03:27 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->store()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-10 09:03:30 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->store()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-10 09:03:38 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 09:06:22 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 09:08:00 --> Column 'estado' cannot be null
+ERROR - 2022-06-10 09:13:01 --> Column 'estado' cannot be null

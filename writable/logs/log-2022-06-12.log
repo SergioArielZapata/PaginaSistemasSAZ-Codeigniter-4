@@ -1,0 +1,1752 @@
+CRITICAL - 2022-06-12 00:00:56 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\contacto.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 00:01:11 --> Call to undefined method CodeIgniter\View\View::getVar()
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 00:01:38 --> Invalid file: apellido.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('apellido.php')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('apellido', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\contacto.php(29): view('apellido')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 00:02:37 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\contacto.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 00:03:04 --> Call to undefined method CodeIgniter\Session\Session::getVar()
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 00:03:27 --> Function name must be a string
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 00:03:42 --> Call to undefined method CodeIgniter\Session\Session::getVar()
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 00:04:18 --> Undefined variable: user_obj
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\contacto.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 00:06:31 --> Undefined variable: id_usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\contacto.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 00:08:30 --> Undefined variable: id_usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\contacto.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 00:20:35 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 00:20:47 --> Function name must be a string
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 00:22:03 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 00:22:17 --> Function name must be a string
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 00:22:38 --> Object of class CodeIgniter\Session\Session could not be converted to string
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 10:11:59 --> Undefined variable: session
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\contacto.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(102): view('contacto')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 10:18:15 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-12 10:18:56 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-12 10:19:51 --> Invalid file: front/registrar.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/registrar...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('front/registrar', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(55): view('front/registrar', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->verificar_contacto()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 11:03:20 --> Undefined variable: id_usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\contacto.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 11:05:20 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 11:05:57 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 11:05:59 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/contact...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(96): view('usuario/contact...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-12 11:50:26 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-06-12 11:50:26 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(110): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->gracias()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 11:51:50 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-06-12 11:51:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(110): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->gracias()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 11:54:45 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-06-12 11:54:45 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(110): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->gracias()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 11:55:49 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-06-12 11:55:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(110): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(100): App\Controllers\ConsultaController->gracias()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->verificar_consulta()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 12:02:33 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-12 12:02:54 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-12 12:03:39 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-06-12 12:11:05 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-06-12 12:11:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(112): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(102): App\Controllers\ConsultaController->gracias()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->verificar_consulta()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 12:12:38 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-06-12 12:12:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(112): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(102): App\Controllers\ConsultaController->gracias()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->verificar_consulta()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 12:14:06 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-06-12 12:14:06 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(110): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(100): App\Controllers\ConsultaController->gracias()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->verificar_consulta()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 12:23:42 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-06-12 12:23:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(110): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->gracias()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-12 12:32:37 --> Invalid file: front/contacto.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/contacto....')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('front/contacto', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(54): view('front/contacto', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->verificar_contacto()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 12:52:33 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/listado...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(119): view('usuario/listado...', Array)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->listado_consultas()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 12:53:12 --> Undefined variable: registrado
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\listado_consultas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/listado...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(119): view('usuario/listado...', Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->listado_consultas()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 12:53:42 --> First array member is not a valid class name or object
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/listado...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(119): view('usuario/listado...', Array)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->listado_consultas()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 12:58:43 --> Trying to get property 'regsitrado' of non-object
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\listado_consultas.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/listado...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(119): view('usuario/listado...', Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->listado_consultas()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 12:58:59 --> Trying to get property 'regsitrado' of non-object
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\listado_consultas.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/listado...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(119): view('usuario/listado...', Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->listado_consultas()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 12:59:27 --> First array member is not a valid class name or object
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/listado...', Array, true)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(119): view('usuario/listado...', Array)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->listado_consultas()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 12:59:46 --> Undefined index: registrado
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\listado_consultas.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/listado...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(119): view('usuario/listado...', Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->listado_consultas()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 13:00:27 --> Undefined index: registrado
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\listado_consultas.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/listado...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(119): view('usuario/listado...', Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->listado_consultas()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 13:09:54 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(138): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 13:18:49 --> There is no data to insert.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(144): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 13:19:51 --> There is no data to insert.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(144): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-12 13:22:16 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 13:22:16 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(144): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 14:05:07 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 14:05:07 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(144): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 14:08:42 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 14:08:42 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(150): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 14:09:25 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 14:09:25 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(145): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 14:10:30 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 14:10:30 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(145): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 14:13:42 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 14:13:42 --> Undefined variable: productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(145): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 14:14:24 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 14:14:24 --> Undefined variable: items
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(145): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 15:08:59 --> default is not a valid database connection group.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\Validation\Rules.php(132): CodeIgniter\Database\Config::connect('default')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('rami0@gmail.com', 'email', Array, NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'rami0@gmail.com', Array, Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): CodeIgniter\Controller->validate(Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 15:09:39 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 15:09:39 --> Undefined variable: items
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(145): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 15:09:58 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 15:09:58 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(145): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 15:10:26 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 15:10:26 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(145): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 15:11:20 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 15:11:20 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(145): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 15:56:12 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 15:56:12 --> Undefined variable: query
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(145): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 16:09:06 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:09:06 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(145): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 16:14:05 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:14:05 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 16:21:54 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:21:54 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 16:22:22 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:22:22 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 16:25:11 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:25:11 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 16:30:52 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:30:52 --> Invalid file: carrito/comprar_carrito.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('carrito/comprar...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/comprar...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): view('carrito/comprar...')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 16:31:23 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:31:23 --> Invalid file: /comprar_carrito.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/comprar_carrit...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/comprar_carrit...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): view('/comprar_carrit...')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 16:32:03 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:32:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 171, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 16:41:20 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:41:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 171, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 16:50:00 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:50:00 --> Undefined property: App\Controllers\CarritoController::$cart
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 172, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 16:52:07 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:52:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 176, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 16:52:44 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:52:44 --> Undefined property: App\Controllers\CarritoController::$input
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 181, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 16:53:30 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:53:30 --> Undefined property: App\Controllers\CarritoController::$input
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 182, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 16:54:12 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:54:12 --> Undefined property: App\Controllers\CarritoController::$ClienteModel
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 189, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 16:55:05 --> Unknown column 'total_venta' in 'field list'
+CRITICAL - 2022-06-12 16:55:05 --> Array to string conversion
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 189, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 16:59:46 --> Unknown column 'total_venta' in 'field list'
+ERROR - 2022-06-12 16:59:46 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+CRITICAL - 2022-06-12 16:59:46 --> Undefined property: App\Controllers\CarritoController::$DetalleVentaModel
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 17:01:16 --> Unknown column 'total_venta' in 'field list'
+ERROR - 2022-06-12 17:01:16 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+CRITICAL - 2022-06-12 17:01:16 --> There is no data to insert.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(193): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(133): App\Controllers\CarritoController->comprar_carrito()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-12 17:02:40 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+CRITICAL - 2022-06-12 17:02:40 --> There is no data to insert.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(181): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-12 17:13:01 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+CRITICAL - 2022-06-12 17:13:01 --> Undefined property: App\Controllers\CarritoController::$cart
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(186): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 186, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 17:13:43 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+CRITICAL - 2022-06-12 17:13:43 --> Undefined property: App\Controllers\CarritoController::$uri
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 17:16:12 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+CRITICAL - 2022-06-12 17:16:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 207, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-12 17:17:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 163, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-12 17:19:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 163, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 17:25:39 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+CRITICAL - 2022-06-12 17:25:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 209, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-12 17:25:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-12 17:27:25 --> Undefined variable: data
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-12 17:27:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-12 17:28:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-12 17:30:11 --> Undefined variable: data
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 17:30:34 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+CRITICAL - 2022-06-12 17:30:34 --> Undefined variable: venta
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-12 17:32:27 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-12 17:34:05 --> Undefined variable: data
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-12 17:34:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 17:37:59 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 17:37:59 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 17:37:59 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 17:37:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 207, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 17:40:28 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 17:40:28 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 17:40:28 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 17:40:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(210): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 210, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 17:41:56 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 17:41:56 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 17:41:56 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 17:41:56 --> Undefined property: App\Controllers\CarritoController::$load
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(208): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 208, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 17:42:30 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 17:42:30 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 17:42:30 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 17:42:30 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(210): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-12 17:45:18 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 17:45:18 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 17:45:18 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 17:45:18 --> Undefined property: App\Controllers\CarritoController::$uri
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 17:47:00 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 17:47:00 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 17:47:00 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 17:47:00 --> Undefined property: App\Controllers\CarritoController::$uri
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 214, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 17:47:13 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 17:47:13 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 17:47:13 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 17:47:13 --> Undefined variable: id_venta
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(216): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 216, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 17:47:32 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 17:47:32 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 17:47:32 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 17:47:32 --> Undefined variable: detalles
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(219): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-12 17:50:54 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 17:50:54 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 17:50:54 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 17:50:54 --> Undefined property: App\Controllers\CarritoController::$db
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(216): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 17:54:08 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 17:54:08 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 17:54:08 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 17:54:08 --> Undefined property: App\Controllers\CarritoController::$builder
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(216): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 17:59:03 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 17:59:03 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 17:59:03 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 17:59:03 --> Undefined property: App\Controllers\CarritoController::$db
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 163, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(219): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 17:59:45 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 17:59:45 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 17:59:45 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 17:59:45 --> Undefined property: App\Controllers\CarritoController::$db
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 163, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(219): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:00:30 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:00:30 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:00:30 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:00:30 --> Undefined property: App\Controllers\CarritoController::$db
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 163, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(219): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:01:01 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:01:01 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:01:01 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:01:01 --> Undefined property: App\Controllers\CarritoController::$db
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 163, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(219): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 18:01:27 --> default is not a valid database connection group.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\Validation\Rules.php(132): CodeIgniter\Database\Config::connect('default')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('stin80@gmail.co...', 'email', Array, NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'stin80@gmail.co...', Array, Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(109): CodeIgniter\Controller->validate(Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 18:02:42 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:02:42 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:02:42 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:02:42 --> Undefined property: App\Controllers\CarritoController::$db
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 163, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(219): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:05:50 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:05:50 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:05:50 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:05:50 --> Undefined property: App\Controllers\CarritoController::$db
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 164, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(220): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:06:20 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:06:20 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:06:20 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:06:20 --> Undefined property: App\Controllers\CarritoController::$db
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 164, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(220): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:07:58 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:07:58 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:07:58 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:07:58 --> Undefined property: App\Controllers\CarritoController::$db
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(223): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:09:27 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:09:27 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:09:28 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:09:28 --> Undefined property: App\Controllers\CarritoController::$db
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(215): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:09:35 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:09:35 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:09:35 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:09:35 --> Undefined property: App\Controllers\CarritoController::$db
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(215): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:12:38 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:12:38 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:12:38 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:12:38 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php on line 156
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(156): CodeIgniter\Database\BaseBuilder->get('detalle_ventas', NULL)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(215): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:12:52 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:12:52 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:12:52 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:12:52 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php on line 156
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(156): CodeIgniter\Database\BaseBuilder->get('detalle_ventas', NULL)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(215): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:13:44 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:13:44 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:13:44 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:13:44 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php on line 156
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(156): CodeIgniter\Database\BaseBuilder->get('detalle_ventas', NULL)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(215): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:14:33 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:14:33 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:14:33 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:14:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(215): App\Controllers\CarritoController->mostrar_compras(NULL)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-12 18:14:54 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:14:54 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:14:54 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:14:54 --> Cannot use object of type App\Models\DetalleVentaModel as array
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-12 18:16:37 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:16:37 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:16:37 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:16:37 --> Undefined property: App\Controllers\CarritoController::$default
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(215): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(121): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:18:51 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:18:51 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:18:51 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:18:51 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php on line 157
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(157): CodeIgniter\Database\BaseBuilder->get('detalle_ventas', NULL)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(216): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(122): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:20:17 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:20:17 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:20:17 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:20:17 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php on line 157
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(157): CodeIgniter\Database\BaseBuilder->get('detalle_ventas', NULL)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(216): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(122): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-12 18:21:15 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 18:21:15 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 18:21:15 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 18:21:15 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php on line 157
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(157): CodeIgniter\Database\BaseBuilder->get('detalle_ventas', NULL)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(216): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(122): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 19:29:52 --> Invalid file: front/hedader.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/hedader.p...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('front/hedader', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\listado_consultas.php(2): view('front/hedader')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/listado...', Array, true)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(119): view('usuario/listado...', Array)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->listado_consultas()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 19:32:16 --> Invalid file: front/hedader.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/hedader.p...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('front/hedader', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\listado_consulta.php(2): view('front/hedader')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/listado...', Array, true)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ConsultaController.php(126): view('usuario/listado...', Array)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ConsultaController->listado_consulta()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 19:53:38 --> Undefined variable: session
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\productos\listado_producto.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('productos/lista...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(14): view('productos/lista...', Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->index()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 22:07:36 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-12 22:07:36 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-12 22:07:36 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-12 22:07:36 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php on line 157
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(157): CodeIgniter\Database\BaseBuilder->get('detalle_ventas', NULL)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(216): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 22:12:11 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 22:12:56 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 22:13:34 --> Invalid file: /compra_realizada.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/compra_realiza...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/compra_realiza...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): view('/compra_realiza...')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 22:13:53 --> Undefined variable: purchases
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-12 22:14:43 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-12 22:15:17 --> Undefined variable: purchases
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-12 22:16:45 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 22:18:56 --> Invalid file: plantillas/encabezado.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantillas/enca...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('plantillas/enca...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('plantillas/enca...', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 22:19:28 --> Invalid file: carrito/verCompras.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('carrito/verComp...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/verComp...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/verComp...')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 22:19:56 --> Undefined variable: purchases
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:20:29 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:21:15 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:21:57 --> Undefined variable: carritoModel
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:23:04 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:25:02 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 22:25:33 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:27:10 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:28:07 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:30:51 --> Undefined variable: purchases
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:31:34 --> Undefined variable: purchases
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:32:32 --> Undefined variable: salesModel
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:32:46 --> Undefined variable: itmes
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:33:06 --> Undefined variable: facturas
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:35:37 --> Undefined variable: facturas
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:38:47 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:39:26 --> Undefined variable: productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:42:41 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:44:14 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:44:42 --> Undefined index: id_sale
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:45:24 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:48:14 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:48:53 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(256): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(245): App\Controllers\CarritoController->verCompras()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 22:55:13 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(244): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 22:55:35 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(244): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 23:12:54 --> Undefined variable: factura
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\carrito\compra_realizada.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('carrito/compra_...', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(244): view('carrito/compra_...')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->finalizarCompra()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-12 23:15:53 --> Invalid file: compra_realizada.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('compra_realizad...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('compra_realizad...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(255): view('compra_realizad...', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->verCompras()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 23:16:09 --> Invalid file: /compra_realizada.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/compra_realiza...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/compra_realiza...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(255): view('/compra_realiza...', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->verCompras()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 23:16:14 --> Invalid file: /compra_realizada.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/compra_realiza...')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/compra_realiza...', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(255): view('/compra_realiza...', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(123): App\Controllers\CarritoController->verCompras()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,42 @@
+ERROR - 2022-06-13 07:21:32 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-13 07:21:32 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-13 07:21:32 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-13 07:21:32 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php on line 157
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(157): CodeIgniter\Database\BaseBuilder->get('detalle_ventas', NULL)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(209): App\Controllers\CarritoController->mostrar_compras(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-13 07:22:40 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-13 07:22:40 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-13 07:22:40 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-13 07:22:40 --> Undefined property: App\Controllers\CarritoController::$cart
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(212): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 212, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->comprar_carrito()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-13 07:23:38 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`clientes`, CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `detalle_ventas` (`id_cliente`))
+ERROR - 2022-06-13 07:23:38 --> Column 'id_usuario' cannot be null
+ERROR - 2022-06-13 07:23:38 --> Cannot add or update a child row: a foreign key constraint fails (`ramirezalfredo-p1`.`detalle_ventas`, CONSTRAINT `detalle_ventas_ibfk_2` FOREIGN KEY (`id_ventas`) REFERENCES `cabecera_ventas` (`id_ventas`))
+CRITICAL - 2022-06-13 07:50:05 --> Call to a member function contents() on array
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CarritoController.php(120): App\Controllers\CarritoController->finalizarCompra()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CarritoController->verificar_compra()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 07:57:57 --> Invalid file: front/producto.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/producto....')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('front/producto', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(30): view('front/producto')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

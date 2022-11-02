@@ -1,0 +1,263 @@
+ERROR - 2022-05-27 15:50:29 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-05-27 15:50:53 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-27 15:55:59 --> Invalid file: /perfil.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/perfil.php')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/perfil', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(102): view('/perfil')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 15:57:35 --> Invalid file: /perfil.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/perfil.php')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/perfil', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(102): view('/perfil')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->profile()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 15:57:36 --> Invalid file: /perfil.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/perfil.php')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/perfil', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(102): view('/perfil')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->profile()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 15:57:39 --> Invalid file: /perfil.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/perfil.php')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/perfil', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(102): view('/perfil')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->profile()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 15:58:36 --> Invalid file: /perfil.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/perfil.php')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/perfil', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(102): view('/perfil')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->profile()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 15:59:12 --> Invalid file: /perfil.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/perfil.php')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/perfil', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(102): view('/perfil')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->profile()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 15:59:14 --> Invalid file: /perfil.php
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/perfil.php')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('/perfil', Array, true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(102): view('/perfil')
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->profile()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 16:01:59 --> Undefined variable $user
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:02:01 --> Undefined variable $user
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:03:07 --> Undefined variable $user
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:03:36 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:03:39 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:03:56 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:03:59 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:06:02 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:06:04 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:06:04 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:06:05 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:09:23 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:09:25 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:09:26 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:09:26 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:09:27 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:09:27 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 16:09:27 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Views\usuario\profile.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Common.php(1089): CodeIgniter\View\View->render('usuario/profile', Array, true)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\UsuarioController.php(61): view('usuario/profile')
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\UsuarioController->perfil()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

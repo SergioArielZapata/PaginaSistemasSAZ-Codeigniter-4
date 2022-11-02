@@ -1,0 +1,42 @@
+CRITICAL - 2022-05-19 17:22:40 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\LoginController.php(28): CodeIgniter\Model->__call('otenerUsuario', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\LoginController->login()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 17:25:22 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\LoginController.php(28): CodeIgniter\Model->__call('otenerUsuario', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\LoginController->login()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 17:33:48 --> Call to undefined method App\Models\UsuarioModel::obtenerUsuario
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\LoginController.php(27): CodeIgniter\Model->__call('obtenerUsuario', Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 17:37:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\LoginController.php(27): CodeIgniter\Model->__call('where', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\LoginController->login()
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 17:38:35 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\LoginController.php(28): count(NULL)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\LoginController->login()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

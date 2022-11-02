@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1667398988;_ci_previous_url|s:47:"http://localhost/SistemasSAZ/agregausuario_view";_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:2:{s:11:"correoLogin";s:15:"admin@admin.com";s:9:"passLogin";s:8:"12345678";}}__ci_vars|a:2:{s:13:"_ci_old_input";s:3:"old";s:3:"msg";s:3:"old";}msg|a:1:{s:4:"body";s:20:"Password Incorrecto.";}

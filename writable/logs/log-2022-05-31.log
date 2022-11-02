@@ -1,0 +1,102 @@
+CRITICAL - 2022-05-31 08:11:27 --> Too few arguments to function App\Controllers\ProductoController::eliminar_producto(), 1 passed in C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->eliminar_producto('1')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-31 09:08:13 --> Undefined property: App\Controllers\ProductoController::$productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->eliminar('10')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:10:09 --> Undefined property: App\Controllers\ProductoController::$productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->eliminar('10')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:12:55 --> Undefined property: App\Controllers\ProductoController::$productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->eliminar('10')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:15:12 --> Call to undefined method App\Models\ProductoModel::update_producto
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(94): CodeIgniter\Model->__call('update_producto', Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->eliminar('10')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:15:43 --> There is no data to update.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(94): CodeIgniter\Model->update('10', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->eliminar('10')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 09:17:41 --> Undefined property: App\Controllers\ProductoController::$productos
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->eliminar('10')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:18:46 --> There is no data to update.
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(94): CodeIgniter\Model->update('9', Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->eliminar('9')
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-31 09:22:41 --> Column 'cod' cannot be null
+ERROR - 2022-05-31 10:15:58 --> Column 'imagen' cannot be null
+ERROR - 2022-05-31 10:18:28 --> Column 'imagen' cannot be null
+ERROR - 2022-05-31 10:20:37 --> Column 'imagen' cannot be null
+ERROR - 2022-05-31 10:31:34 --> Column 'imagen' cannot be null
+ERROR - 2022-05-31 10:34:30 --> Column 'imagen' cannot be null
+ERROR - 2022-05-31 10:35:44 --> Column 'imagen' cannot be null
+ERROR - 2022-05-31 10:53:20 --> Column 'imagen' cannot be null
+ERROR - 2022-05-31 10:54:46 --> Column 'imagen' cannot be null
+ERROR - 2022-05-31 10:56:30 --> Column 'imagen' cannot be null
+ERROR - 2022-05-31 10:57:18 --> Column 'imagen' cannot be null
+CRITICAL - 2022-05-31 13:01:44 --> Call to undefined method App\Models\ProductoModel::update_producto
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\ProductoController.php(88): CodeIgniter\Model->__call('update_producto', Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\ProductoController->update_producto()
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 17:45:27 --> Undefined property: App\Controllers\CrudController::$uri
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CrudController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CrudController->eliminar_usuario('8')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 17:47:14 --> Undefined property: App\Controllers\CrudController::$UsuarioModel
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CrudController.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CrudController->eliminar_usuario('28')
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 18:08:06 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\Database\BaseBuilder.php(731): CodeIgniter\Database\BaseBuilder->_whereIn('usuarios.id', true, false, 'AND ', NULL)
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(290): CodeIgniter\Database\BaseBuilder->whereIn('usuarios.id', true)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(true, Array)
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(651): CodeIgniter\BaseModel->update(true, Array)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\CrudController.php(103): CodeIgniter\Model->update(true, Array)
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\CrudController->delete('13')
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

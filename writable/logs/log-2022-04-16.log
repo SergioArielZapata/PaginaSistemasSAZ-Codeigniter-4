@@ -1,0 +1,11 @@
+CRITICAL - 2022-04-16 11:31:57 --> Undefined property: CodeIgniter\View\View::$uri
+#0 C:\xampp\htdocs\servicio-tecnico\app\Views\front\menu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\servicio-tecnico\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\servicio-tecnico\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\servicio-tecnico\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\servicio-tecnico\app\Controllers\Home.php(11): view('front/menu')
+#5 C:\xampp\htdocs\servicio-tecnico\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\servicio-tecnico\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\servicio-tecnico\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\servicio-tecnico\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

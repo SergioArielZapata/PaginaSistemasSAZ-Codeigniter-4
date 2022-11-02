@@ -1,0 +1,138 @@
+CRITICAL - 2022-07-28 19:24:19 --> include_once(app/Libraries/barcode/src/BarcodeGenerator.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(ap...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): include_once()
+#2 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\SistemasSAZ\system\Common.php(1089): CodeIgniter\View\View->render('UsuarioRegistra...', Array, true)
+#5 C:\xampp\htdocs\SistemasSAZ\app\Controllers\UsuarioRegistrado.php(134): view('UsuarioRegistra...', Array)
+#6 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(832): App\Controllers\UsuarioRegistrado->factu('3')
+#7 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioRegistrado))
+#8 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SistemasSAZ\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-28 19:25:15 --> include_once(app/Libraries/barcode/src/BarcodeGenerator.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(ap...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): include_once()
+#2 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\SistemasSAZ\system\Common.php(1089): CodeIgniter\View\View->render('UsuarioRegistra...', Array, true)
+#5 C:\xampp\htdocs\SistemasSAZ\app\Controllers\UsuarioRegistrado.php(134): view('UsuarioRegistra...', Array)
+#6 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(832): App\Controllers\UsuarioRegistrado->factu('3')
+#7 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioRegistrado))
+#8 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SistemasSAZ\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-28 19:25:23 --> include_once(app/Libraries/barcode/src/BarcodeGenerator.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(ap...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): include_once()
+#2 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\SistemasSAZ\system\Common.php(1089): CodeIgniter\View\View->render('UsuarioRegistra...', Array, true)
+#5 C:\xampp\htdocs\SistemasSAZ\app\Controllers\UsuarioRegistrado.php(134): view('UsuarioRegistra...', Array)
+#6 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(832): App\Controllers\UsuarioRegistrado->factu('4')
+#7 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioRegistrado))
+#8 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SistemasSAZ\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-28 19:27:47 --> include_once(app/Libraries/barcode/src/BarcodeGenerator.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(ap...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): include_once()
+#2 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\SistemasSAZ\system\Common.php(1089): CodeIgniter\View\View->render('UsuarioRegistra...', Array, true)
+#5 C:\xampp\htdocs\SistemasSAZ\app\Controllers\UsuarioRegistrado.php(134): view('UsuarioRegistra...', Array)
+#6 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(832): App\Controllers\UsuarioRegistrado->factu('3')
+#7 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioRegistrado))
+#8 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SistemasSAZ\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-28 19:29:37 --> include_once(/barcode/src/BarcodeGenerator.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(/b...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): include_once()
+#2 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\SistemasSAZ\system\Common.php(1089): CodeIgniter\View\View->render('UsuarioRegistra...', Array, true)
+#5 C:\xampp\htdocs\SistemasSAZ\app\Controllers\UsuarioRegistrado.php(134): view('UsuarioRegistra...', Array)
+#6 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(832): App\Controllers\UsuarioRegistrado->factu('3')
+#7 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioRegistrado))
+#8 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SistemasSAZ\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-28 19:30:03 --> include_once(barcode/src/BarcodeGenerator.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(ba...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): include_once()
+#2 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\SistemasSAZ\system\Common.php(1089): CodeIgniter\View\View->render('UsuarioRegistra...', Array, true)
+#5 C:\xampp\htdocs\SistemasSAZ\app\Controllers\UsuarioRegistrado.php(134): view('UsuarioRegistra...', Array)
+#6 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(832): App\Controllers\UsuarioRegistrado->factu('3')
+#7 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioRegistrado))
+#8 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SistemasSAZ\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-28 19:30:12 --> include_once(../barcode/src/BarcodeGenerator.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(2): include_once()
+#2 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\SistemasSAZ\system\Common.php(1089): CodeIgniter\View\View->render('UsuarioRegistra...', Array, true)
+#5 C:\xampp\htdocs\SistemasSAZ\app\Controllers\UsuarioRegistrado.php(134): view('UsuarioRegistra...', Array)
+#6 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(832): App\Controllers\UsuarioRegistrado->factu('3')
+#7 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioRegistrado))
+#8 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SistemasSAZ\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-28 19:30:58 --> include_once(/barcode/src/BarcodeGeneratorHTML.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(/b...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\SistemasSAZ\app\Views\UsuarioRegistrado\factura2.php(3): include_once()
+#2 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\SistemasSAZ\system\Common.php(1089): CodeIgniter\View\View->render('UsuarioRegistra...', Array, true)
+#5 C:\xampp\htdocs\SistemasSAZ\app\Controllers\UsuarioRegistrado.php(134): view('UsuarioRegistra...', Array)
+#6 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(832): App\Controllers\UsuarioRegistrado->factu('3')
+#7 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioRegistrado))
+#8 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SistemasSAZ\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-28 19:32:16 --> CodeIgniter\View\View::main(): Failed opening required 'app/Libraries/dompdf/autoload.inc.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-28 19:32:52 --> CodeIgniter\View\View::main(): Failed opening required 'Libraria/dompdf/autoload.inc.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-28 21:57:29 --> Invalid file: UsuarioVisitante/envios.php
+#0 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UsuarioVisitant...')
+#1 C:\xampp\htdocs\SistemasSAZ\system\Common.php(1089): CodeIgniter\View\View->render('UsuarioVisitant...', Array, true)
+#2 C:\xampp\htdocs\SistemasSAZ\app\Controllers\UsuarioVisitante.php(82): view('UsuarioVisitant...')
+#3 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(832): App\Controllers\UsuarioVisitante->envios()
+#4 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioVisitante))
+#5 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SistemasSAZ\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-28 21:57:56 --> Invalid file: UsuarioVisitante/formaPago.php
+#0 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UsuarioVisitant...')
+#1 C:\xampp\htdocs\SistemasSAZ\system\Common.php(1089): CodeIgniter\View\View->render('UsuarioVisitant...', Array, true)
+#2 C:\xampp\htdocs\SistemasSAZ\app\Controllers\UsuarioVisitante.php(90): view('UsuarioVisitant...')
+#3 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(832): App\Controllers\UsuarioVisitante->formaPago()
+#4 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioVisitante))
+#5 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SistemasSAZ\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-28 21:58:39 --> Invalid file: UsuarioVisitante/envios.php
+#0 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UsuarioVisitant...')
+#1 C:\xampp\htdocs\SistemasSAZ\system\Common.php(1089): CodeIgniter\View\View->render('UsuarioVisitant...', Array, true)
+#2 C:\xampp\htdocs\SistemasSAZ\app\Controllers\UsuarioVisitante.php(82): view('UsuarioVisitant...')
+#3 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(832): App\Controllers\UsuarioVisitante->envios()
+#4 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioVisitante))
+#5 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SistemasSAZ\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-28 21:59:28 --> Invalid file: UsuarioVisitante/formaPago.php
+#0 C:\xampp\htdocs\SistemasSAZ\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UsuarioVisitant...')
+#1 C:\xampp\htdocs\SistemasSAZ\system\Common.php(1089): CodeIgniter\View\View->render('UsuarioVisitant...', Array, true)
+#2 C:\xampp\htdocs\SistemasSAZ\app\Controllers\UsuarioVisitante.php(90): view('UsuarioVisitant...')
+#3 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(832): App\Controllers\UsuarioVisitante->formaPago()
+#4 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioVisitante))
+#5 C:\xampp\htdocs\SistemasSAZ\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SistemasSAZ\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
